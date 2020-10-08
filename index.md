@@ -19,7 +19,7 @@ Let's say you are making a website for a client, and they need an interactive ma
 
 Imagine you're a customer at a restaurant. The customers like you (the user) send requests through a waiter (the API) to the kitchen (web server). You tell the waiter your order, and the waiter requests it from the kitchen. Finally, the waiter provides you with what you ordered.
 
-This is how an API works. It acts as an intermediary between the user and the web server by retrieving data from this server and sending it to the user.
+That is how an API works. It acts as an intermediary between the user and the web server by retrieving data from this server and sending it to the user.
 
 ### Types of APIS
 
