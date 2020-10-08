@@ -13,7 +13,7 @@ summary: These brief instructions will help you get started quickly with Postman
 
 API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to "talk" to each other. 
 
-Let's say you are making a website for a client, and they need an interactive map on their site. You would probably use the <a alt="google maps api link" href="https://developers.google.com/maps/documentation/maps-static/overview">Google Maps API</a> or another navigation API to make it possible.
+Let's say you are making a website for a client, and they need an interactive map on their site. You will probably want to use the <a alt="google maps api link" href="https://developers.google.com/maps/documentation/maps-static/overview">Google Maps API</a> or another navigation API to make it possible.
 
 ### How does an API work?
 
