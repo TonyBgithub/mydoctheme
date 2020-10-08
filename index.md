@@ -7,7 +7,7 @@ permalink: index.html
 summary: These brief instructions will help you get started quickly with the theme. The other topics in this help provide additional information and detail about working with other aspects of this theme and Jekyll.
 ---
 
-{% include note.html content="If you are here, you have probably read my resume. Thank you for your time and interest. %}
+{% include note.html content="If you are here, you have probably read my resume. Thank you for your time and interest. <a alt='technical writing blog' href='http://idratherbewriting.com'>LinkedIn Profile</a>." %}
 
 ## Build the Site
 
