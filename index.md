@@ -1,5 +1,5 @@
 ---
-title: "Getting started with the Documentation Theme for Jekyll"
+title: "Inserting an interactive map on your site using Javascript"
 keywords: sample homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar
@@ -7,13 +7,14 @@ permalink: index.html
 summary: These brief instructions will help you get started quickly with Postman. The other topics in this help provide additional information and detail about API documentation.
 ---
 
-{% include note.html content="If you are here, you have probably read either my resume, or my <a alt='LinkedIn profile' href='http://idratherbewriting.com'>LinkedIn Profile</a>. Thank you for your time and interest. " %}
+{% include note.html content="If you are here, you have probably read either my resume, or my <a alt='LinkedIn profile' href='http://idratherbewriting.com'>LinkedIn Profile</a>. Thank you for your time and interest." %}
+
+## Prerequisites
+You have basic knowledge of HTML, CSS and Javascript, and you can link your HTML page to your CSS file and your Javascript file.
 
 ## What is an API?
 
 API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to "talk" to each other. 
-
-Let's say you are making a website for a client, and they need an interactive map on their site. You will probably want to use the <a alt="google maps api link" href="https://developers.google.com/maps/documentation/maps-static/overview">Google Maps API</a> or another navigation API to make it possible.
 
 ### How does an API work?
 
@@ -21,9 +22,36 @@ Imagine you're a customer at a restaurant. The customers like you (the user) sen
 
 That is how an API works. It acts as an intermediary between the user and the web server by retrieving data from this server and sending it to the user.
 
-### Types of APIS
+### API examples
 
-TEST : link vers autres pages
+Let's say you are making a website for a client, and they need an interactive map on their site. You'll probably want to use the <a alt="google maps api link" href="https://developers.google.com/maps/documentation/maps-static/overview">Google Maps API</a> or another navigation API to make it possible.
+
+You could also need to display the weather forecast on your website. To do that, you can use a weather API such as <a href="https://openweathermap.org/api">OpenWeatherMap</a>.
+
+Here is a request example **REQUEST EXAMPLE**
+
+## Getting an API key
+
+Before you actually send requests and put your map on your website, you need to get a free API key from Google Maps. 
+
+An API key is an authentication code that identifies its user. API keys help track and control how the interface is being utilized. It prevents abuse or malicious use of the API in question.
+
+To get your API key go to the <a href="https://developers.google.com/maps/documentation/javascript/get-api-key">Google Maps Platform</a> and follow the instructions.
+
+### Install Postman
+
+Postman is a software development tool. It enables people to test calls to APIs and presents a user-friendly interface to send requests and organize the collected data. You can also save your requests and organize them.
+
+1. Go to <a href="https://www.postman.com/downloads/">this link</a> and click Download for Mac/ Windows / Linux depending on your platform.
+
+2. Open the downloaded file
+
+3. Once the installation of Postman is completed, you will be asked to create an account. We recommend creating one since it allows you to save your work. If you choose not to create an account, click **Take me straight to the app**.
+
+Postman is now ready for use.
+
+### Run a Jekyll site locally on your computer
+
 If you've never installed or run a Jekyll site locally on your computer, follow these instructions to install Jekyll:
 
 * [Install Jekyll on Mac][mydoc_install_jekyll_on_mac]
