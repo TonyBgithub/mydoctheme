@@ -28,7 +28,36 @@ Let's say you are making a website for a client, and they need an interactive ma
 
 You could also need to display the weather forecast on your website. To do that, you can use a weather API such as <a href="https://openweathermap.org/api">OpenWeatherMap</a>.
 
-Here is a request example **REQUEST EXAMPLE**
+Here is a request example:
+
+```
+https://api.openweathermap.org/data/2.5/weather?q=London&appid=d4a7494d82d1ee97f696b195dd8e39e4&units=metric"
+```
+Here is a sample of what we get as an answer, in JSON format:
+```
+{
+    "coord": {
+        "lon": -0.13,
+        "lat": 51.51
+    },
+    "weather": [
+        {
+            "id": 802,
+            "main": "Clouds",
+            "description": "scattered clouds",
+            "icon": "03n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 283.86,
+        "feels_like": 282.03,
+        "temp_min": 281.48,
+        "temp_max": 287.04,
+        "pressure": 1019,
+        "humidity": 76
+    }
+```
 
 ## Getting an API key
 
