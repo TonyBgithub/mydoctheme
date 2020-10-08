@@ -4,21 +4,26 @@ keywords: sample homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar
 permalink: index.html
-summary: These brief instructions will help you get started quickly with the theme. The other topics in this help provide additional information and detail about working with other aspects of this theme and Jekyll.
+summary: These brief instructions will help you get started quickly with Postman. The other topics in this help provide additional information and detail about API documentation.
 ---
 
-{% include note.html content="If you are here, you have probably read my resume. Thank you for your time and interest. <a alt='technical writing blog' href='http://idratherbewriting.com'>LinkedIn Profile</a>." %}
+{% include note.html content="If you are here, you have probably read either my resume, or my <a alt='LinkedIn profile' href='http://idratherbewriting.com'>LinkedIn Profile</a>. Thank you for your time and interest. " %}
 
-## Build the Site
+## What is an API?
 
-Follow these instructions to build the theme.
+API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to "talk" to each other. 
 
-### 1. Download the theme
+Let's say you are making a website for a client, and they need an interactive map on their site. You would probably use the <a alt="google maps api link" href="https://developers.google.com/maps/documentation/maps-static/overview">Google Maps API</a> or another navigation API to make it possible.
 
-First, download or clone the theme from the [Github repo](https://github.com/tomjoht/documentation-theme-jekyll). Most likely you won't be pulling in updates once you start customizing the theme, so downloading the theme (instead of cloning it) probably makes the most sense. In Github, click the **Clone or download** button, and then click **Download ZIP**.
+### How does an API work?
 
-### 2. Install Jekyll
+Imagine you're a customer at a restaurant. The customers like you (the user) send requests through a waiter (the API) to the kitchen (web server). You tell the waiter your order, and the waiter requests it from the kitchen. Finally, the waiter provides you with what you ordered.
 
+This is how an API works. It acts as an intermediary between the user and the web server by retrieving data from this server and sending it to the user.
+
+### Types of APIS
+
+TEST : link vers autres pages
 If you've never installed or run a Jekyll site locally on your computer, follow these instructions to install Jekyll:
 
 * [Install Jekyll on Mac][mydoc_install_jekyll_on_mac]
