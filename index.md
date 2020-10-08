@@ -7,7 +7,7 @@ permalink: index.html
 summary: These brief instructions will help you get started quickly with the theme. The other topics in this help provide additional information and detail about working with other aspects of this theme and Jekyll.
 ---
 
-{% include note.html content="If you are here, you have probably read my resume. Thank you for your time and interest. You can contact me by email at brigettony@gmail.com, or send me a message on my <a alt='LinkedIn profile' href='https://www.linkedin.com/in/tony-briget-52640017a/?originalSubdomain=fr'>LinkedIn Profile</a>. %}
+{% include note.html content="If you are here, you have probably read my resume. Thank you for your time and interest. You can contact me by email at brigettony@gmail.com, or send me a message on my <a alt='LinkedIn profile' href='www.linkedin.com/in/tony-briget-52640017a/?originalSubdomain=fr'>LinkedIn Profile</a>. %}
 
 ## Build the Site
 
