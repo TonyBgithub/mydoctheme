@@ -68,7 +68,7 @@ entries:
       url: /mydoc_install_jekyll_on_mac.html
       output: web, pdf
 
-    - title: Putting a Google Maps Interactive Map on your website
+    - title: Putting a Google Maps Interactive Map on Your Website
       url: /mydoc_google_maps_api.html
       output: web, pdf
 
