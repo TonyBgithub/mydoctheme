@@ -4,13 +4,13 @@ keywords: sample homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar
 permalink: index.html
-summary: These brief instructions will help you get started quickly with Postman. The other topics in this help provide additional information and detail about API documentation.
+summary: These brief instructions will help you get started with API documentation. You will learn what an API is, and how to send requests using Postman, an API testing tool.
 ---
 
 {% include note.html content="If you are here, you have probably read either my resume, or my <a alt='LinkedIn profile' href='http://idratherbewriting.com'>LinkedIn Profile</a>. Thank you for your time and interest." %}
 
 ## Prerequisites
-You have basic knowledge of HTML, CSS and Javascript, and you can link an HTML page to a CSS file and a Javascript file.
+You have basic knowledge of how the internet works, and you can dabble with HTML, CSS and Javascript.
 
 ## What is an API?
 
@@ -21,6 +21,11 @@ API is the acronym for Application Programming Interface, which is a software in
 Imagine you're a customer at a restaurant. The customers like you (the user) send requests through a waiter (the API) to the kitchen (web server). You tell the waiter your order, and the waiter requests it from the kitchen. Finally, the waiter provides you with what you ordered.
 
 That is how an API works. It acts as an intermediary between the user and the web server by retrieving data from this server and sending it to the user.
+
+### Understanding REST APIs
+
+There are several types of APIs, but in this introduction we will be using a REST API called OpenWeatherMap.
+REST is the acronym for Representational State Transfer. A REST API allows two computers to communicate over HTTP, just like web browsers communicate with servers.
 
 ### API examples
 
@@ -65,7 +70,7 @@ In the request, we asked about the weather forecast in London. Here, the OpenWea
 
 ## Getting an API key
 
-Before you actually send requests and put your map on your website, you need to get a free API key from OpenWeatherMap. 
+Before you actually send requests and put the weather forecast on your website, you need to get a free API key from OpenWeatherMap. 
 
 An API key is an authentication code that identifies its user. API keys help track and control how the interface is being utilized and help prevent abuse of the API.
 
@@ -93,12 +98,6 @@ Once you have you API key, you can move on to the next tasks where you will use 
 [Github Pages](https://pages.github.com/).
 
 ## Configure the sidebar
-
-There are several products in this theme. Each product uses a different sidebar. This is the essence of what makes this theme unique -- different sidebars for different product documentation. The idea is that when users are reading documentation for a specific product, the sidebar navigation should be specific to that product. (You can read more of my thoughts on why multiple sidebars are important in this [blog post](http://idratherbewriting.com/2016/03/23/release-of-documentation-theme-for-jekyll-50/).)
-
-The top navigation usually remains the same, because it allows users to navigate across products. But the sidebar navigation adapts to the product.
-
-In each page's frontmatter, you must specify the sidebar you want that page to use. Here's an example of the page frontmatter showing the sidebar property:
 
 <pre>
 ---
