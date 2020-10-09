@@ -24,16 +24,18 @@ That is how an API works. It acts as an intermediary between the user and the we
 
 ### API examples
 
-Let's say you are making a website for a client, and they need an interactive map on their site. You'll probably want to use the <a alt="google maps api link" href="https://developers.google.com/maps/documentation/maps-static/overview">Google Maps API</a> or another navigation API to make it possible.
+Let's say you are making a website for a client, and they need an interactive map on their website. You'll probably want to use the <a alt="google maps api link" href="https://developers.google.com/maps/documentation/maps-static/overview">Google Maps API</a> or another navigation API to make it possible.
 
 You could also need to display the weather forecast on your website. To do that, you can use a weather API such as <a href="https://openweathermap.org/api">OpenWeatherMap</a>.
 
 Here is a request example:
 
 ```
-https://api.openweathermap.org/data/2.5/weather?q=London&appid=d4a7494d82d1ee97f696b195dd8e39e4&units=metric"
+https://api.openweathermap.org/data/2.5/weather?q=London&appid=YOURAPIKEY&units=metric"
 ```
-Here is a sample of what we get as an answer, in JSON format:
+In the above request, you would replace YOURAPIKEY by your actual API key (more on that in the next section).
+
+Here is a sample of the response we get, in JSON format:
 ```
 {
     "coord": {
@@ -59,13 +61,15 @@ Here is a sample of what we get as an answer, in JSON format:
     }
 ```
 
+In the request, we asked about the weather forecast in London. Here, the OpenWeather API provides us with data that we can then use on our website.
+
 ## Getting an API key
 
 Before you actually send requests and put your map on your website, you need to get a free API key from Google Maps. 
 
 An API key is an authentication code that identifies its user. API keys help track and control how the interface is being utilized. It prevents abuse or malicious use of the API in question.
 
-To get your API key go to the <a href="https://developers.google.com/maps/documentation/javascript/get-api-key">Google Maps Platform</a> and follow the instructions.
+To get your API key go to the <a href="https://openweathermap.org/appid">OpenWeatherMap website</a> and follow the instructions.
 
 ### Install Postman
 
@@ -83,8 +87,8 @@ Postman is now ready for use.
 
 If you've never installed or run a Jekyll site locally on your computer, follow these instructions to install Jekyll:
 
-* [Install Jekyll on Mac][mydoc_install_jekyll_on_mac]
-* [Install Jekyll on Windows][mydoc_install_jekyll_on_windows]
+* [Putting a Google Maps Interactive Map on your website][mydoc_google_maps_api]
+* [Putting a Weather Widget on Your Website][mydoc_weather_widget]
 
 ### 3. Install Bundler
 
