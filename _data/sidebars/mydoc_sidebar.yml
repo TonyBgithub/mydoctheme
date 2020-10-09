@@ -68,8 +68,12 @@ entries:
       url: /mydoc_install_jekyll_on_mac.html
       output: web, pdf
 
-    - title: Install Jekyll on Windows
-      url: /mydoc_install_jekyll_on_windows.html
+    - title: Putting a Google Maps Interactive Map on your website
+      url: /mydoc_google_maps_api.html
+      output: web, pdf
+
+    - title: Putting a Weather Widget on Your Website
+      url: /mydoc_weather_widget.html
       output: web, pdf
 
   - title: Authoring

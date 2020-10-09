@@ -83,9 +83,9 @@ Postman is a software development tool. It enables people to test calls to APIs 
 
 Postman is now ready for use.
 
-### Run a Jekyll site locally on your computer
+### What next?
 
-If you've never installed or run a Jekyll site locally on your computer, follow these instructions to install Jekyll:
+Once you have you API key, you can move on to the next tasks where you will use the data and put it on your website:
 
 * [Putting a Google Maps Interactive Map on your website][mydoc_google_maps_api]
 * [Putting a Weather Widget on Your Website][mydoc_weather_widget]
