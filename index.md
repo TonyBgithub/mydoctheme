@@ -1,5 +1,5 @@
 ---
-title: "Inserting an interactive map on your site using Javascript"
+title: "Inserting an weather Widget on your website using Javascript"
 keywords: sample homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar
@@ -10,7 +10,7 @@ summary: These brief instructions will help you get started with API documentati
 {% include note.html content="If you are here, you have probably read either my resume, or my <a alt='LinkedIn profile' href='http://idratherbewriting.com'>LinkedIn Profile</a>. Thank you for your time and interest." %}
 
 ## Prerequisites
-You have basic knowledge of how the internet works, and you can dabble with HTML, CSS and Javascript.
+You have basic knowledge of how the internet works, and basic knowledge of HTML, CSS and Javascript.
 
 ## What is an API?
 
