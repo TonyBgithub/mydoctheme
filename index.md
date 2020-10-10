@@ -12,22 +12,22 @@ summary: These brief instructions will help you get started with API documentati
 ## Prerequisites
 You have basic knowledge of how the internet works, and basic knowledge of HTML, CSS and Javascript.
 
-## What is an API?
+## Defining APIs
 
 API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to "talk" to each other. 
 
-### How does an API work?
+### Understanding how APIs work
 
 Imagine you're a customer at a restaurant. The customers like you (the user) send requests through a waiter (the API) to the kitchen (web server). You tell the waiter your order, and the waiter requests it from the kitchen. Finally, the waiter provides you with what you ordered.
 
 That is how an API works. It acts as an intermediary between the user and the web server by retrieving data from this server and sending it to the user.
 
-### Understanding REST APIs
+### Discovering REST APIs
 
 There are several types of APIs, but in this introduction we will be using a REST API called OpenWeatherMap.
 REST is the acronym for Representational State Transfer. A REST API allows two computers to communicate over HTTP, just like web browsers communicate with servers.
 
-### API examples
+### Concrete API examples
 
 Let's say you are making a website for a client, and they need an interactive map on their website. You'll probably want to use the <a alt="google maps api link" href="https://developers.google.com/maps/documentation/maps-static/overview">Google Maps API</a> or another navigation API to make it possible.
 
@@ -76,7 +76,7 @@ An API key is an authentication code that identifies its user. API keys help tra
 
 To get your API key go to the <a href="https://openweathermap.org/appid">OpenWeatherMap website</a> and follow the instructions.
 
-### Install Postman
+### Installing Postman
 
 Postman is a software development tool. It enables people to test calls to APIs and presents a user-friendly interface to send requests and organize the collected data. You can also save  and organize your requests in Postman.
 
@@ -88,7 +88,7 @@ Postman is a software development tool. It enables people to test calls to APIs 
 
 Postman is now ready for use.
 
-### What next?
+### Using the collected data
 
 Once you have you API key, you can move on to the next tasks where you'll use the data you GET and put it on your website:
 
