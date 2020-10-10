@@ -90,7 +90,7 @@ Postman is now ready for use.
 
 ### What next?
 
-Once you have you API key, you can move on to the next tasks where you will use the data and put it on your website:
+Once you have you API key, you can move on to the next tasks where you'll use the data you GET and put it on your website:
 
 * [Putting a Google Maps Interactive Map on Your Website][mydoc_google_maps_api]
 * [Putting a Weather Widget on Your Website][mydoc_weather_widget]
