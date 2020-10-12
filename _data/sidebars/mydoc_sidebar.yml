@@ -28,13 +28,17 @@ entries:
       output: web, pdf
       type: homepage
 
-    - title: About the theme author
+    - title: About me
       url: /mydoc_about.html
       output: web, pdf
 
-  - title: Installation
+  - title: API documentation
     output: web, pdf
     folderitems:
+
+    - title: Introduction to API documentation
+      url: /mydoc_API_documentation.html
+      output: web, pdf
 
     - title: Putting a Google Maps Interactive Map on Your Website
       url: /mydoc_google_maps_api.html
