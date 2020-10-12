@@ -8,6 +8,8 @@ permalink: mydoc_weather_widget.html
 folder: mydoc
 ---
 
+{% include note.html content="This page is under construction." %}
+
 ## Prerequisites 
 
 You have installed Postman as described in [Getting Started][index] and you obtained an API key from the <a href="https://openweathermap.org/appid">OpenWeatherMap website</a>
