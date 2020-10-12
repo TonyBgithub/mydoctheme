@@ -1,9 +1,9 @@
 ---
-title: About the author
+title: About me
 keywords: documentation theme, jekyll, technical writers, help authoring tools, hat replacements
 last_updated: July 3, 2016
 tags: [getting_started]
-summary: "Here are details about me and how I built this website."
+summary: "Here is my short bio and a few samples of my work."
 sidebar: mydoc_sidebar
 permalink: mydoc_about.html
 folder: mydoc
