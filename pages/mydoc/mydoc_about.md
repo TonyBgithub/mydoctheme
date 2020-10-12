@@ -10,7 +10,7 @@ folder: mydoc
 ---
 
 ## Bio
-My name is Tony Briget, and I'm a technical writer and videomaker based near Paris, France. For more details, see my [LinkedIn profile](https://www.linkedin.com/in/tony-briget-52640017a/) I am currently working on expanding my knowledge of API documentation and coding in general, exploring new areas and experimenting with code snippets that I include in my projects. 
+My name is Tony Briget, and I'm a technical writer and videomaker based near Paris, France. For more details, see my [LinkedIn profile](https://www.linkedin.com/in/tony-briget-52640017a/) I'm' currently working on expanding my knowledge of API documentation and coding in general, exploring new areas and experimenting with code snippets that I include in my projects. 
 
 ## What I do
 Last year, part of my work at SAP involved shooting and editing documentation videos. See [my work on SAP's Youtube Channel](https://www.youtube.com/watch?v=aENAqA82wdo). 
