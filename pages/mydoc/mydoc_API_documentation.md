@@ -69,7 +69,9 @@ Here is a sample of the response we get, in JSON format:
 
 In the request, we asked about the weather forecast in London. Here, the OpenWeather API provides us with data that we can then use on our website.
 
-## Getting an API key
+## Setting up your environment
+
+### Getting an API key
 
 Before you actually send requests and put the weather forecast on your website, you need to get a free API key from OpenWeatherMap. 
 
@@ -89,14 +91,12 @@ Postman is a software development tool. It enables people to test calls to APIs 
 
 Postman is now ready for use.
 
-### Using the collected data
+## Using the APIs
 
 Once you have you API key, you can move on to the next tasks where you'll use the data you GET and put it on your website:
 
 * [Putting a Google Maps Interactive Map on Your Website][mydoc_google_maps_api]
 * [Putting a Weather Widget on Your Website][mydoc_weather_widget]
-
-[Github Pages](https://pages.github.com/).
 
 For more details on the different types of APIs, see [Github Pages](https://pages.github.com/).
 
