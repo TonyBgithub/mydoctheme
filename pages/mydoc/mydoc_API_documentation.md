@@ -98,7 +98,7 @@ Once you have you API key, you can move on to the next tasks where you'll use th
 * [Putting a Google Maps Interactive Map on Your Website][mydoc_google_maps_api]
 * [Putting a Weather Widget on Your Website][mydoc_weather_widget]
 
-For more details on the different types of APIs, see [Github Pages](https://pages.github.com/).
+For more details on REST APIs, see [this article](https://idratherbewriting.com/2015/08/28/all-about-rest-apis/#about-web-services) on Tom Johson's blog.
 
 {% include links.html %}
 
