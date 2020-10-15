@@ -21,7 +21,7 @@ API is the acronym for Application Programming Interface, which is a software in
 
 Imagine you're a customer at a restaurant. The customers like you (the user) send requests through a waiter (the API) to the kitchen (web server). You tell the waiter your order, and the waiter requests it from the kitchen. Finally, the waiter provides you with what you ordered.
 
-That is how an API works. It acts as an intermediary between the user and the web server by retrieving data from this server and sending it to the user.
+That is how an API works. It acts as an intermediary between the user (who sends a *request*) and the web server (which then gives a *response*) by retrieving data from this server and sending it to the user.
 
 ### Discovering REST APIs
 
