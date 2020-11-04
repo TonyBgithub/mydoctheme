@@ -18,7 +18,7 @@ My name is Tony Briget, I'm a technical writer and videomaker based near Paris, 
 I built this documentation website using [Jekyll](https://jekyllrb.com/), a static site generator. Most of what you read on this website I wrote in Markdown or plain HTML. I learned this from Tom Johnson, an API documentation specialist who works for Amazon. See his [API documentation course](https://idratherbewriting.com/learnapidoc/docapis_introtoapis.html).
 
 ### Building documentation sites with Antora
-I have experience with OxygenXML and DITA, but I'm always looking for more efficient ways to write, display and review documentation. As such, I'm currently learning to build documentation websites using Antora and AsciiDoc. Here is the [Antora Site](https://tb-apidoc.netlify.app/docs-site/1.0/) I am currently working on, hosted on Netlify.
+I have experience with OxygenXML and DITA, but I'm always looking for more efficient ways to write, display and review documentation. As such, I'm currently learning to build documentation websites using Antora and AsciiDoc. Here is the [Antora Site](https://tb-apidocs.netlify.app/apidocs/1.0/) I am currently working on, hosted on Netlify.
 
 ### Videos
 Last year, part of my work at SAP involved shooting and editing documentation videos. See [my work on SAP's Youtube Channel](https://www.youtube.com/watch?v=aENAqA82wdo). 
